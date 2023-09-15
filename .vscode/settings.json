@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "string": "cpp",
+        "fstream": "cpp",
+        "new": "cpp",
+        "filesystem": "cpp"
+    }
+}
