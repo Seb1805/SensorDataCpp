@@ -14,5 +14,9 @@ RITMULib(https://github.com/smukkejohan/RTIMULib)
 
 ncurses(https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/intro.html)
 
+
+after installing the required dependencies the project can be compiled with below command
+
+
 run the following command
 g++ ungabunga.cpp -lncurses -lmenu -l SenseHat -l RITMULib -o ungabunga
