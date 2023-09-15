@@ -22,7 +22,7 @@
 bool fileExistsMethod(const std::string& filename){
     return access(filename.c_str(), F_OK) != -1;
 }
-
+// Function to write sensor data to a CSV file
 void writeSensorDataToCSV(const std::string& filename, const std::vector<float>& sensorData, const std::vector<const char*>& headerNames){
     std::ofstream csvFile;
     //bool fileExist = std::filesystem::exists(filename);
@@ -81,6 +81,7 @@ void writeSensorDataToCSV(const std::string& filename, const std::vector<float>&
 
 
 SenseHat hat;
+// Function to get additional information based on the selected menu item
 const char* get_additional_info(const char* item)
 {
     float x,y,z;
