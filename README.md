@@ -10,7 +10,7 @@ SenseHat (https://github.com/PhilippeSimier/SenseHat/tree/master)
 RITMULib(https://github.com/smukkejohan/RTIMULib)
 
 
-ncurses
+ncurses(https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/intro.html)
 
 run the following command
 g++ ungabunga.cpp -lncurses -lmenu -l SenseHat -l RITMULib -o ungabunga
